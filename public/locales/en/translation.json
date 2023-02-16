@@ -1,4 +1,10 @@
 {
   "Главная страница": "Main Page",
-  "Язык": "English"
+  "Язык": "English",
+  "Страница не найдена": "Page not found",
+  "Произошла непредвиденная ошибка": "Something was wrong",
+  "Обновить страницу": "Reload page",
+  "Создать ошибку": "('Throw Error')",
+  "О сайте": "About us",
+  "Главная": "Home"
 }
