@@ -11,5 +11,7 @@
   "Короткий язык": "En",
   "Войти": "Log in",
   "Уменьшить": "decrement",
-  "('Увеличить')": "increment"
+  "Увеличить": "increment",
+  "Введите имя": "Enter your name",
+  "Введите пароль": "Enter your password"
 }
