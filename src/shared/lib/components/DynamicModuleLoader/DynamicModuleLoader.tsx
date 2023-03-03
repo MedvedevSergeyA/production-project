@@ -29,7 +29,7 @@ export const DynamicModuleLoader: FC< DynamicModuleLoaderProps > = (props) => {
         });
         return () => {
             if (removeAfterUnmount) {
-                Object.entries(reducers).forEach(([name, reducer]: ReducersListEntry) => {
+                Object.entries(reducers).forEach(([name]: ReducersListEntry) => {
                     store.reducerManager.remove(name);
                     dispatch({ type: `@DESTROY ${name} reducer` });
                 });
@@ -37,7 +37,6 @@ export const DynamicModuleLoader: FC< DynamicModuleLoaderProps > = (props) => {
         };
         // eslint-disable-next-line
     }, []);
-    const { t } = useTranslation();
     return (
         // eslint-disable-next-line react/jsx-no-useless-fragment
         <>
