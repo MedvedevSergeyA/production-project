@@ -18,5 +18,7 @@
   "Форма авторизации": "Authorization",
   "Выйти": "Log out",
   "Страница пользователя": "Profile page",
-  "Профиль": "Profile"
+  "Профиль": "Profile",
+  "Укажите валюту": "Specify the currency",
+  "Укажите страну": "Specify country"
 }
