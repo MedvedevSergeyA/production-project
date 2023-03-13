@@ -20,5 +20,10 @@
   "Страница пользователя": "Profile page",
   "Профиль": "Profile",
   "Укажите валюту": "Specify the currency",
-  "Укажите страну": "Specify country"
+  "Укажите страну": "Specify country",
+  "Данные не указаны": "NO_DATA",
+  "Некорректный возраст": "INCORRECT_AGE",
+  "Имя и фамилия обязательны": "INCORRECT_USER_DATA",
+  "Некорректный регион": "INCORRECT_COUNTRY",
+  "Ошибка на сервере": "SERVER_ERROR"
 }
