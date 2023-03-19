@@ -2,6 +2,7 @@ import React from 'react';
 import AboutIcon from 'shared/assets/icons/About.svg';
 import HomeIcon from 'shared/assets/icons/Home.svg';
 import ProfileIcon from 'shared/assets/icons/Profile.svg';
+import ArticleIcon from 'shared/assets/icons/Article.svg';
 import { RoutePath } from 'shared/config/routeConfig/routeConfig';
 
 export interface SidebarItemType {
@@ -26,6 +27,12 @@ export const SidebarItemsList: SidebarItemType[] = [
         path: RoutePath.profile,
         Icon: ProfileIcon,
         text: 'Профиль',
+        authOnly: true,
+    },
+    {
+        path: RoutePath.articles,
+        Icon: ArticleIcon,
+        text: 'Статьи',
         authOnly: true,
     },
 ];
