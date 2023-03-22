@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import { Text, TextTheme } from 'shared/ui/Text/Text';
+import { Text, TextSize, TextTheme } from 'shared/ui/Text/Text';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
 
@@ -19,6 +19,7 @@ Primary.args = {
     title: 'Title loremloremlorem',
     text: 'DescriptionDescriptionDescriptionDescription',
 };
+
 export const Error = Template.bind({});
 Error.args = {
     title: 'Title loremloremlorem',
@@ -49,3 +50,10 @@ onlyTextDark.args = {
     text: 'DescriptionDescriptionDescriptionDescription',
 };
 onlyTextDark.decorators = [ThemeDecorator(Theme.DARK)];
+
+export const SizeL = Template.bind({});
+SizeL.args = {
+    title: 'Title loremloremlorem',
+    text: 'DescriptionDescriptionDescriptionDescription',
+    size: TextSize.L,
+};
